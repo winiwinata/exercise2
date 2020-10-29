@@ -47,5 +47,5 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myLabel.text = "My Favorite Sport is " + sportNames[indexPath.row]
     }
-    
+    //
 }
